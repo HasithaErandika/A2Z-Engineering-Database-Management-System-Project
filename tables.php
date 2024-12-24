@@ -4,19 +4,6 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['password']) || !isset($_S
     header("Location: index.php");
     exit();
 }
-
-$servername = "localhost";
-$username = $_SESSION['username'];
-$password = $_SESSION['password'];
-$dbname = $_SESSION['dbname'];
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SHOW TABLES";
-$result = $conn->query($sql);
 ?>
 
 <!DOCTYPE html>
@@ -24,29 +11,23 @@ $result = $conn->query($sql);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables</title>
+    <title>Tables - A2Z ENGINEERING</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="d-flex justify-content-between p-3 bg-dark text-white">
+        <div class="logo">A2Z ENGINEERING</div>
+        <a href="logout.php" class="btn btn-light">Logout</a>
+    </header>
     <div class="container mt-5">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-            <h2>Database Tables</h2>
-            <a href="logout.php" class="btn btn-danger">Logout</a>
-        </div>
-        <div class="list-group">
-            <?php
-            if ($result->num_rows > 0) {
-                while ($row = $result->fetch_array()) {
-                    $table = $row[0];
-                    echo '<a href="manage_table.php?table=' . $table . '" class="list-group-item list-group-item-action">' . $table . '</a>';
-                }
-            } else {
-                echo "<div class='alert alert-warning' role='alert'>No tables found in the database.</div>";
-            }
-            ?>
+        <h2>Select Table</h2>
+        <div class="d-flex flex-wrap justify-content-around">
+            <a href="manage_table.php?table=attendance" class="btn btn-primary m-2">Attendance</a>
+            <a href="manage_table.php?table=employee" class="btn btn-primary m-2">Employee</a>
+            <a href="jobs.php" class="btn btn-primary m-2">Jobs</a>
+            <a href="manage_table.php?table=projects" class="btn btn-primary m-2">Projects</a>
         </div>
     </div>
 </body>
 </html>
-<?php $conn->close(); ?>
