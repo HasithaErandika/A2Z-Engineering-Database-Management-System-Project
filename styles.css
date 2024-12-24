@@ -1,73 +1,43 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f4f4f4;
 }
 
-.container {
-    margin-top: 50px;
-}
-
-.card {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.card-title {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    font-weight: bold;
-}
-
-.btn-block {
-    width: 100%;
-}
-
-.buttons-container {
-    margin-bottom: 20px;
-}
-
-.buttons-container a {
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    margin-right: 10px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #343a40;
     color: white;
 }
 
-.buttons-container a.btn-success {
-    background-color: #28a745;
+.logo {
+    font-size: 24px;
 }
 
-.buttons-container a.btn-danger {
-    background-color: #dc3545;
+.table-container {
+    overflow-x: auto;
 }
 
-.buttons-container a.btn-warning {
-    background-color: #ffc107;
+.login-box {
+    width: 300px;
+    background-color: #800000;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.buttons-container a:hover {
-    opacity: 0.9;
+.btn-light {
+    background-color: #f8f9fa;
+    color: #343a40;
 }
 
-.table-bordered {
-    width: 100%;
-    margin-top: 20px;
+.btn-primary {
+    background-color: #007bff;
+    border: none;
 }
 
-.table-bordered th, .table-bordered td {
-    border: 1px solid #dee2e6;
-    padding: 10px;
-}
-
-.table-bordered th {
-    background-color: #f1f1f1;
-    font-weight: bold;
-}
-
-.alert {
-    margin-top: 20px;
+.btn-dark {
+    background-color: #343a40;
+    color: #ffffff;
 }
