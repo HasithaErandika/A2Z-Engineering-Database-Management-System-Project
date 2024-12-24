@@ -1,0 +1,667 @@
+/* General Body Styles */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+
+/* Page-specific Styles for Another Page */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f9fafc;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+/* Login Page Specific Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.login-card {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    text-align: center;
+}
+
+.login-card h2 {
+    color: #4e54c8;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #fafafa;
+    color: #495057;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
+}
+
+/* Button Styles */
+.btn-primary,
+.btn-website_visiting,
+.btn-goback {
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #667eea;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5563c1;
+    transform: translateY(-3px);
+}
+
+.btn-website_visiting {
+    background-color: #764ba2;
+}
+
+.btn-website_visiting:hover {
+    background-color: #603b81;
+    transform: translateY(-3px);
+}
+
+.btn-goback {
+    background-color: #4e54c8;
+}
+
+.btn-goback:hover {
+    background-color: #3a4196;
+    transform: translateY(-3px);
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f3f4f6;
+    color: #495057;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Alert Styles */
+.alert-danger {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-top: 100px;
+}
+
+/* Custom Button Styles */
+.btn-custom {
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    transition: all 0.3s ease;
+    min-height: 100px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.btn-custom i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.btn-primary.btn-sm {
+    padding: 8px 15px;
+    font-size: 0.875rem;
+}
+
+.btn-primary.btn-sm:hover {
+    background-color: #5563c1;
+}
+
+/* Layout Styles */
+.row {
+    justify-content: center;
+}
+
+/* Cost Calculation Table Styles */
+.table {
+    width: auto;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: #fff;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    color: #333;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+    color: #fff;
+    background-color: rgba(0, 123, 255, 0.2);
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+    border-bottom-width: 2px;
+}
+
+.thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+/* Responsive table */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Additional Styling for Expense Summary and Employee Details */
+.expense-summary-col,
+.employee-details-col {
+    word-wrap: break-word;
+    max-width: 250px;
+}
+
+.total-label {
+    font-weight: bold;
+}
+
+.net-profit {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Styles for Manage Table */
+.container-fluid {
+    padding: 10px;
+    padding-top: 0;
+}
+
+.container-fluid h2 {
+    margin-bottom: 1px;
+    color: #0d2e2e;
+}
+
+.container-fluid .btn {
+    margin: 5px;
+}
+
+.container-fluid .btn-block {
+    width: auto;
+    display: inline-block;
+}
+
+.table-wrapper {
+    position: relative;
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.container-fluid .search-box {
+    margin-bottom: 10px;
+    width: 50%;
+    margin-right: auto;
+}
+
+.container-fluid .search-box input {
+    width: 100%;
+}
+
+.image-preview {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.btn-yet-to-add {
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: #fff;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: #fff;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.service-icon {
+    display: inline-block;
+    margin-right: 5px;
+    color: #fff;
+}
+
+/* Add styles for the invoice button */
+.btn-invoice {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.btn-invoice-yet-to-add {
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: #fff;
+}
+
+/* Styles for Add Entry */
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container .form-group {
+    margin-bottom: 25px;
+}
+
+.datetime {
+    position: relative;
+}
+
+.datetime input {
+    padding-right: 40px;
+}
+
+.datetime .calendar-icon,
+.datetime .clock-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.btn-full-day,
+.btn-half-day,
+.btn-not-attended {
+    margin-right: 10px;
+}
+
+.btn-full-day,
+.btn-half-day,
+.btn-not-attended,
+.btn-outline-success,
+.btn-outline-danger {
+    border-radius: 20px;
+}
+
+.btn-full-day:hover,
+.btn-half-day:hover,
+.btn-not-attended:hover,
+.btn-outline-success:hover,
+.btn-outline-danger:hover {
+    opacity: 0.9;
+}
+
+.form-container .btn-primary,
+.form-container .btn-secondary {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.form-container .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.form-container .btn-primary:hover,
+.form-container .btn-secondary:hover {
+    opacity: 0.9;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.container form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.container table th,
+.container table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.container table th {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+.container input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.container input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}
+
+.container .btn-container {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logout-btn {
+    text-align: right;
+}
+
+.service-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.service-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.service-icon {
+    margin-right: 10px;
+}
+
+.service-text {
+    font-size: 18px;
+}
+
+.container .table {
+    margin-top: 20px;
+}
+
+.legend-container {
+    margin-left: 20px;
+}
+
+.legend-table {
+    width: 100%;
+}
+
+.legend-table td {
+    padding: 5px;
+}
+
+/* Styles for Salary Page */
+.salary-page .container {
+    padding-top: 40px;
+}
+
+.salary-page .card-body {
+    padding: 30px;
+}
+
+.salary-page .breakdown {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.salary-page .net-payable {
+    color: green;
+    font-weight: bold;
+}
+
+/* Table Styles */
+.salary-page .table th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.salary-page .table td {
+    text-align: right;
+}
+
+.salary-page .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.salary-page .table td {
+    padding: 12px;
+}
+
+.salary-page .table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Additional Styling for Salary Section */
+.salary-page .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.salary-page .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.salary-page .card-body {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.salary-page .card-footer {
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #777;
+}

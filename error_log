@@ -1,0 +1,486 @@
+[13-Nov-2024 21:59:22 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'suramalr_ruwani'@'localhost' (using password: YES) in /home3/suramalraj/records.a2zengineering.net/index.php on line 10
+[13-Nov-2024 21:59:22 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'suramalr_ruwani'@'localhost' (using password: YES) in /home3/suramalraj/records.a2zengineering.net/index.php on line 52
+[13-Nov-2024 21:59:22 America/Chicago] Database connection failed: Access denied for user 'suramalr_ruwani'@'localhost' (using password: YES)
+[16-Nov-2024 10:22:10 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'suramalr_ruwani'@'localhost' (using password: YES) in /home3/suramalraj/records.a2zengineering.net/index.php on line 10
+[16-Nov-2024 10:22:10 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'suramalr_ruwani'@'localhost' (using password: YES) in /home3/suramalraj/records.a2zengineering.net/index.php on line 52
+[16-Nov-2024 10:22:10 America/Chicago] Database connection failed: Access denied for user 'suramalr_ruwani'@'localhost' (using password: YES)
+[18-Nov-2024 09:35:37 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home3/suramalraj/records.a2zengineering.net/index.php on line 10
+[18-Nov-2024 09:35:37 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home3/suramalraj/records.a2zengineering.net/index.php on line 52
+[18-Nov-2024 09:35:37 America/Chicago] Database connection failed: Access denied for user ''@'localhost' (using password: NO)
+[01-Dec-2024 03:22:19 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'suramalr_hasitha'@'localhost' (using password: YES) in /home3/suramalraj/records.a2zengineering.net/index.php on line 12
+[01-Dec-2024 03:22:19 America/Chicago] Database connection failed: Access denied for user 'suramalr_hasitha'@'localhost' (using password: YES)
+[01-Dec-2024 03:22:19 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/suramalraj/records.a2zengineering.net/index.php on line 32
+[02-Dec-2024 07:06:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function calculate_employee_payments() in /home3/suramalraj/records.a2zengineering.net/wages_report.php:45
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 45
+[02-Dec-2024 08:05:30 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 34
+[03-Dec-2024 21:13:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/suramalraj/records.a2zengineering.net/wages_report.php:152
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 152
+[03-Dec-2024 21:14:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/suramalraj/records.a2zengineering.net/wages_report.php:152
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 152
+[03-Dec-2024 21:14:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home3/suramalraj/records.a2zengineering.net/wages_report.php:152
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 152
+[03-Dec-2024 23:07:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function calculate_employee_payments() in /home3/suramalraj/records.a2zengineering.net/wages_report.php:43
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 43
+[04-Dec-2024 01:59:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/suramalraj/records.a2zengineering.net/add_entry.php:138
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/add_entry.php on line 138
+[08-Dec-2024 05:02:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home3/suramalraj/records.a2zengineering.net/update_entry.php:112
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/update_entry.php on line 112
+[12-Dec-2024 06:44:13 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'suramalr_operational_db.Employe' doesn't exist in /home3/suramalraj/records.a2zengineering.net/add_entry.php:30
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/add_entry.php(30): mysqli->query('SELECT Emp_ID, ...')
+#1 /home3/suramalraj/records.a2zengineering.net/add_entry.php(143): getEmployees(Object(mysqli))
+#2 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/add_entry.php on line 30
+[12-Dec-2024 07:07:41 America/Chicago] PHP Warning:  Undefined variable $conn in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 98
+[12-Dec-2024 07:07:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/suramalraj/records.a2zengineering.net/manage_table.php:83
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/manage_table.php(98): calculateTotalJobCapacity(NULL)
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 83
+[12-Dec-2024 07:08:24 America/Chicago] PHP Warning:  Undefined variable $conn in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 98
+[12-Dec-2024 07:08:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/suramalraj/records.a2zengineering.net/manage_table.php:83
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/manage_table.php(98): calculateTotalJobCapacity(NULL)
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 83
+[12-Dec-2024 07:08:27 America/Chicago] PHP Warning:  Undefined variable $conn in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 98
+[12-Dec-2024 07:08:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/suramalraj/records.a2zengineering.net/manage_table.php:83
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/manage_table.php(98): calculateTotalJobCapacity(NULL)
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 83
+[12-Dec-2024 07:13:56 America/Chicago] PHP Warning:  Undefined variable $totalJobCapacity in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 183
+[12-Dec-2024 07:15:39 America/Chicago] PHP Warning:  Undefined variable $totalJobCapacity in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 184
+[12-Dec-2024 07:15:52 America/Chicago] PHP Warning:  Undefined variable $totalJobCapacity in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 184
+[12-Dec-2024 07:19:03 America/Chicago] PHP Warning:  Undefined variable $totalJobCapacity in /home3/suramalraj/records.a2zengineering.net/manage_table.php on line 190
+[12-Dec-2024 07:57:32 America/Chicago] PHP Parse error:  Unclosed '{' on line 96 in /home3/suramalraj/records.a2zengineering.net/cost_calculation.php on line 325
+[12-Dec-2024 07:58:11 America/Chicago] PHP Parse error:  Unclosed '{' on line 96 in /home3/suramalraj/records.a2zengineering.net/cost_calculation.php on line 324
+[12-Dec-2024 07:59:28 America/Chicago] PHP Parse error:  Unclosed '{' on line 96 in /home3/suramalraj/records.a2zengineering.net/cost_calculation.php on line 324
+[12-Dec-2024 10:06:06 America/Chicago] PHP Warning:  Undefined global variable $_SESSION in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 4
+[12-Dec-2024 10:06:06 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 4
+[12-Dec-2024 10:06:06 America/Chicago] PHP Warning:  Undefined global variable $_SESSION in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 5
+[12-Dec-2024 10:06:06 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 5
+[12-Dec-2024 10:06:06 America/Chicago] PHP Warning:  Undefined global variable $_SESSION in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 6
+[12-Dec-2024 10:06:06 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 6
+[12-Dec-2024 10:06:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home3/suramalraj/records.a2zengineering.net/get_items.php:9
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/get_items.php(9): mysqli->__construct('localhost', NULL, Object(SensitiveParameterValue), NULL)
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 9
+[12-Dec-2024 19:42:10 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'suramalr_hasitha'@'localhost' (using password: YES) in /home3/suramalraj/records.a2zengineering.net/index.php:10
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/index.php(10): mysqli->__construct('localhost', 'suramalr_hasith...', Object(SensitiveParameterValue), 'suramalr_operat...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/index.php on line 10
+[12-Dec-2024 19:52:46 America/Chicago] PHP Warning:  Undefined global variable $_SESSION in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 4
+[12-Dec-2024 19:52:46 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 4
+[12-Dec-2024 19:52:46 America/Chicago] PHP Warning:  Undefined global variable $_SESSION in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 5
+[12-Dec-2024 19:52:46 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 5
+[12-Dec-2024 19:52:46 America/Chicago] PHP Warning:  Undefined global variable $_SESSION in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 6
+[12-Dec-2024 19:52:46 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 6
+[12-Dec-2024 19:52:46 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home3/suramalraj/records.a2zengineering.net/get_items.php:9
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/get_items.php(9): mysqli->__construct('localhost', NULL, Object(SensitiveParameterValue), NULL)
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/get_items.php on line 9
+[12-Dec-2024 19:56:35 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'suramalr_operational_db.Site_Material_List' doesn't exist in /home3/suramalraj/records.a2zengineering.net/submit_materials.php:35
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/submit_materials.php(35): mysqli->query('INSERT INTO Sit...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/submit_materials.php on line 35
+[12-Dec-2024 20:03:05 America/Chicago] PHP Warning:  Undefined variable $types in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 75
+[12-Dec-2024 20:03:05 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 75
+[12-Dec-2024 20:03:25 America/Chicago] PHP Warning:  Undefined variable $types in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 75
+[12-Dec-2024 20:03:25 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 75
+[12-Dec-2024 20:07:12 America/Chicago] PHP Warning:  Array to string conversion in /home3/suramalraj/records.a2zengineering.net/get_item_details.php on line 26
+[12-Dec-2024 20:11:56 America/Chicago] PHP Warning:  Array to string conversion in /home3/suramalraj/records.a2zengineering.net/get_item_details.php on line 34
+[12-Dec-2024 20:16:25 America/Chicago] PHP Warning:  Array to string conversion in /home3/suramalraj/records.a2zengineering.net/get_item_details.php on line 35
+[12-Dec-2024 20:18:34 America/Chicago] PHP Warning:  Array to string conversion in /home3/suramalraj/records.a2zengineering.net/get_item_details.php on line 35
+[12-Dec-2024 20:23:53 America/Chicago] PHP Warning:  Array to string conversion in /home3/suramalraj/records.a2zengineering.net/get_item_details.php on line 26
+[13-Dec-2024 07:39:49 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, string given in /home3/suramalraj/records.a2zengineering.net/submit_materials.php on line 31
+[18-Dec-2024 21:48:15 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: DELETE command denied to user 'suramalr_dammika'@'localhost' for table 'Employee_Payments' in /home3/suramalraj/records.a2zengineering.net/delete_entry.php:42
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/delete_entry.php(42): mysqli->prepare('DELETE FROM `Em...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/delete_entry.php on line 42
+[18-Dec-2024 21:57:04 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, string given in /home3/suramalraj/records.a2zengineering.net/submit_materials.php on line 31
+[19-Dec-2024 03:48:26 America/Chicago] PHP Parse error:  syntax error, unexpected token "else" in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 259
+[19-Dec-2024 03:57:37 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 380
+[19-Dec-2024 06:05:59 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 387
+[19-Dec-2024 06:46:15 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 397
+[19-Dec-2024 06:48:03 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 406
+[19-Dec-2024 06:50:03 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 406
+[19-Dec-2024 06:50:11 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 421
+[19-Dec-2024 06:51:54 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 456
+[19-Dec-2024 07:28:44 America/Chicago] PHP Warning:  Undefined variable $daily_wage_increment in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 107
+[19-Dec-2024 07:28:44 America/Chicago] PHP Warning:  Undefined variable $employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 110
+[19-Dec-2024 07:28:44 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 110
+[19-Dec-2024 07:28:44 America/Chicago] PHP Warning:  Undefined variable $basic_salary_increment in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 113
+[19-Dec-2024 07:28:44 America/Chicago] PHP Warning:  Undefined variable $employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 07:28:44 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 07:30:44 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 140
+[19-Dec-2024 07:30:44 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 142
+[19-Dec-2024 07:31:10 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 140
+[19-Dec-2024 07:31:10 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 142
+[19-Dec-2024 07:33:48 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 140
+[19-Dec-2024 07:33:48 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 142
+[19-Dec-2024 07:35:38 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 140
+[19-Dec-2024 07:35:38 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 142
+[19-Dec-2024 07:36:29 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 140
+[19-Dec-2024 07:36:29 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 142
+[19-Dec-2024 07:39:55 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 154
+[19-Dec-2024 07:39:55 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 156
+[19-Dec-2024 07:40:03 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 154
+[19-Dec-2024 07:40:03 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 156
+[19-Dec-2024 07:41:58 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 154
+[19-Dec-2024 07:41:58 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 156
+[19-Dec-2024 07:42:28 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 543
+[19-Dec-2024 07:42:41 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 154
+[19-Dec-2024 07:42:41 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 156
+[19-Dec-2024 07:43:00 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 140
+[19-Dec-2024 07:43:00 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 142
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 07:57:54 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 07:59:26 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 07:59:48 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 08:24:03 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 08:25:07 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 08:26:39 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 08:27:01 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:27:19 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $ETF_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 194
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_EMPLOYEE_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 195
+[19-Dec-2024 08:30:09 America/Chicago] PHP Warning:  Undefined variable $EPF_COMPANY_PERCENTAGE in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 196
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 08:30:39 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 08:30:59 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 101
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $employee_name in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 116
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $designation in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 118
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $daily_wage in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 123
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $presence_count in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 124
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $basic_salary in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 125
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $etf in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 131
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $epf_employee in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 132
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $epf_company in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 133
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $total_payable in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 134
+[19-Dec-2024 08:31:56 America/Chicago] PHP Warning:  Undefined variable $paid_amount in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 135
+[19-Dec-2024 09:00:45 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 555
+[19-Dec-2024 09:05:42 America/Chicago] PHP Parse error:  Unmatched '}' in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 266
+[19-Dec-2024 09:05:57 America/Chicago] PHP Parse error:  Unmatched '}' in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 266
+[19-Dec-2024 09:06:27 America/Chicago] PHP Parse error:  Unmatched '}' in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 266
+[19-Dec-2024 09:12:46 America/Chicago] PHP Parse error:  Unmatched '}' in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 285
+[19-Dec-2024 09:40:10 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 551
+[19-Dec-2024 09:42:49 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 550
+[19-Dec-2024 09:53:35 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 551
+[19-Dec-2024 09:54:00 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 550
+[19-Dec-2024 18:12:46 America/Chicago] PHP Warning:  require_once(/records.a2zengineering.net/tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 82
+[19-Dec-2024 18:12:46 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/records.a2zengineering.net/tcpdf/tcpdf.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/suramalraj/records.a2zengineering.net/wages_report.php:82
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 82
+[19-Dec-2024 18:15:29 America/Chicago] PHP Warning:  require_once(/records.a2zengineering.net/tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 5
+[19-Dec-2024 18:15:29 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/records.a2zengineering.net/tcpdf/tcpdf.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/suramalraj/records.a2zengineering.net/wages_report.php:5
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 5
+[19-Dec-2024 18:15:32 America/Chicago] PHP Warning:  require_once(/records.a2zengineering.net/tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 5
+[19-Dec-2024 18:15:32 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/records.a2zengineering.net/tcpdf/tcpdf.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/suramalraj/records.a2zengineering.net/wages_report.php:5
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 5
+[19-Dec-2024 18:15:40 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 554
+[19-Dec-2024 18:20:47 America/Chicago] PHP Warning:  require_once(/records.a2zengineering.net/tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 22
+[19-Dec-2024 18:20:47 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/records.a2zengineering.net/tcpdf/tcpdf.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/suramalraj/records.a2zengineering.net/wages_report.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 22
+[19-Dec-2024 18:23:07 America/Chicago] PHP Warning:  require_once(/records.a2zengineering.net/tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 22
+[19-Dec-2024 18:23:07 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/records.a2zengineering.net/tcpdf/tcpdf.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/suramalraj/records.a2zengineering.net/wages_report.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 22
+[19-Dec-2024 18:23:26 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 554
+[19-Dec-2024 18:36:04 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 554
+[19-Dec-2024 18:40:26 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 554
+[19-Dec-2024 18:41:22 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 558
+[19-Dec-2024 18:58:01 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[19-Dec-2024 18:59:35 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[19-Dec-2024 19:43:08 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'JobID' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:311
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(311): mysqli->query('SELECT JobID, J...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 311
+[19-Dec-2024 19:46:35 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'JobID' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:339
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(339): mysqli->query('SELECT JobID, J...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 339
+[19-Dec-2024 19:50:20 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Job_Name' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:334
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(334): mysqli->query('SELECT Job_ID, ...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 334
+[19-Dec-2024 19:53:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Job_Name' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:36
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(36): mysqli->query('SELECT Job_ID, ...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 36
+[19-Dec-2024 19:53:13 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Job_Name' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:36
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(36): mysqli->query('SELECT Job_ID, ...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 36
+[19-Dec-2024 20:24:23 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Raw_Cost' in 'field list' in /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php:40
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php(40): mysqli->query('INSERT INTO Mat...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php on line 40
+[19-Dec-2024 20:24:44 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Raw_Cost' in 'field list' in /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php:40
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php(40): mysqli->query('INSERT INTO Mat...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php on line 40
+[19-Dec-2024 20:25:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Raw_Cost' in 'field list' in /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php:40
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php(40): mysqli->query('INSERT INTO Mat...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php on line 40
+[19-Dec-2024 20:25:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Raw_Cost' in 'field list' in /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php:40
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php(40): mysqli->query('INSERT INTO Mat...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/add_to_material_list.php on line 40
+[20-Dec-2024 09:40:03 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[20-Dec-2024 09:41:30 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[20-Dec-2024 09:47:17 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[20-Dec-2024 09:47:26 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[20-Dec-2024 09:47:55 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 587
+[20-Dec-2024 10:00:51 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[20-Dec-2024 10:06:03 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[20-Dec-2024 10:40:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Customer_Name' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:36
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(36): mysqli->query('SELECT Job_ID, ...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 36
+[20-Dec-2024 10:42:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Customer_Name' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:36
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(36): mysqli->query('SELECT Job_ID, ...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 36
+[20-Dec-2024 10:44:38 America/Chicago] PHP Warning:  Undefined variable $jobs in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 297
+[20-Dec-2024 10:44:38 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 297
+[21-Dec-2024 03:18:27 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'suramalr_ruwani'@'localhost' (using password: YES) in /home3/suramalraj/records.a2zengineering.net/index.php:11
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/index.php(11): mysqli->__construct('localhost', 'suramalr_ruwani', Object(SensitiveParameterValue), 'suramalr_operat...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/index.php on line 11
+[21-Dec-2024 03:19:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'suramalr_ruwani'@'localhost' (using password: YES) in /home3/suramalraj/records.a2zengineering.net/index.php:11
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/index.php(11): mysqli->__construct('localhost', 'suramalr_ruwani', Object(SensitiveParameterValue), 'suramalr_operat...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/index.php on line 11
+[21-Dec-2024 03:19:48 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'suramalr_ruwani'@'localhost' (using password: YES) in /home3/suramalraj/records.a2zengineering.net/index.php:11
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/index.php(11): mysqli->__construct('localhost', 'suramalr_ruwani', Object(SensitiveParameterValue), 'suramalr_operat...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/index.php on line 11
+[21-Dec-2024 06:07:17 America/Chicago] PHP Warning:  Undefined variable $jobs in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 297
+[21-Dec-2024 06:07:17 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 297
+[21-Dec-2024 06:11:47 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Customer_Name' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:38
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(38): mysqli->query('SELECT Job_ID, ...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 38
+[21-Dec-2024 06:13:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Customer_Name' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:39
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(39): mysqli->query('SELECT Job_ID, ...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 39
+[21-Dec-2024 06:13:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Customer_Name' in 'field list' in /home3/suramalraj/records.a2zengineering.net/material_find.php:39
+Stack trace:
+#0 /home3/suramalraj/records.a2zengineering.net/material_find.php(39): mysqli->query('SELECT Job_ID, ...')
+#1 {main}
+  thrown in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 39
+[21-Dec-2024 06:13:58 America/Chicago] PHP Warning:  Undefined variable $jobs in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 297
+[21-Dec-2024 06:13:58 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 297
+[21-Dec-2024 06:15:04 America/Chicago] PHP Warning:  Undefined variable $jobs in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 306
+[21-Dec-2024 06:15:04 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 306
+[21-Dec-2024 06:31:44 America/Chicago] PHP Warning:  Undefined variable $jobs in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 306
+[21-Dec-2024 06:31:44 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 306
+[21-Dec-2024 06:41:59 America/Chicago] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 5
+[21-Dec-2024 06:41:59 America/Chicago] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated when there is no active session in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 8
+[21-Dec-2024 06:41:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/suramalraj/records.a2zengineering.net/material_find.php:1) in /home3/suramalraj/records.a2zengineering.net/material_find.php on line 12
+[21-Dec-2024 07:31:25 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[21-Dec-2024 08:06:23 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 586
+[21-Dec-2024 08:14:10 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 590
+[21-Dec-2024 08:27:24 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 280
+[21-Dec-2024 08:27:24 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 587
+[21-Dec-2024 08:28:09 America/Chicago] PHP Warning:  Undefined variable $employees in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 279
+[21-Dec-2024 08:28:09 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 279
+[21-Dec-2024 08:28:09 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 306
+[21-Dec-2024 08:28:27 America/Chicago] PHP Warning:  Undefined variable $employees in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 279
+[21-Dec-2024 08:28:27 America/Chicago] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 279
+[21-Dec-2024 08:28:27 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 306
+[21-Dec-2024 08:29:40 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 591
+[21-Dec-2024 08:34:31 America/Chicago] PHP Warning:  Undefined variable $report_output in /home3/suramalraj/records.a2zengineering.net/wages_report.php on line 593
